@@ -11,31 +11,55 @@ class CategoryModel {
     required this.boxColor,
   });
 
-  List<CategoryModel> getCategories() {
+  static List<CategoryModel> getCategories() {
     List<CategoryModel> categories = [];
 
     categories.add(CategoryModel(
-      name: 'Salad',
-      iconPath: 'assets/icons/plate.png',
-      boxColor: Color(0xff92a3fd),
+      name: 'Hot Tea',
+      iconPath: 'assets/icons/hot-tea.svg',
+      boxColor: const Color(0xff92a3fd),
     ));
 
     categories.add(CategoryModel(
-      name: 'Cake',
-      iconPath: 'assets/icons/pancakes.png',
-      boxColor: Color(0xffc58bf2),
+      name: 'Egg',
+      iconPath: 'assets/icons/egg.svg',
+      boxColor: const Color(0xffc58bf2),
     ));
 
     categories.add(CategoryModel(
-      name: 'Pie',
-      iconPath: 'assets/icons/pie.png',
-      boxColor: Color(0xff92a3fd),
+      name: 'Bread',
+      iconPath: 'assets/icons/bread.svg',
+      boxColor: const Color(0xff92a3fd),
     ));
 
     categories.add(CategoryModel(
-      name: 'Smoothies',
-      iconPath: 'assets/icons/orange-snacks.png',
-      boxColor: Color(0xffc58bf2),
+      name: 'Fruits',
+      iconPath: 'assets/icons/apple-snacks.svg',
+      boxColor: const Color(0xffc58bf2),
+    ));
+
+    categories.add(CategoryModel(
+      name: 'Burger',
+      iconPath: 'assets/icons/burger.svg',
+      boxColor: const Color(0xff92a3fd),
+    ));
+
+    categories.add(CategoryModel(
+      name: 'Fish',
+      iconPath: 'assets/icons/fish.svg',
+      boxColor: const Color(0xffc58bf2),
+    ));
+
+    categories.add(CategoryModel(
+      name: 'Fresh Jiuce',
+      iconPath: 'assets/icons/juice.svg',
+      boxColor: const Color(0xff92a3fd),
+    ));
+
+    categories.add(CategoryModel(
+      name: 'Cookies',
+      iconPath: 'assets/icons/cookies.svg',
+      boxColor: const Color(0xffc58bf2),
     ));
 
     return categories;
